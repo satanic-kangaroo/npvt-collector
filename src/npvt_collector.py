@@ -380,8 +380,18 @@ def send_telegram_message(text: str, parse_mode: str = "HTML") -> bool:
 
 
 def build_file_list_message(batch: list[NpvtFile]) -> str:
-    lines = [f'<a href="{item.link}">فایل {i}</a>' for i, item in enumerate(batch, 1)]
-    return "\n".join(lines)
+    lines = []
+    for i, item in enumerate(batch, 1):
+        # تمیز کردن کاراکترهای خاص برای جلوگیری از خطای HTML در تلگرام
+        safe_name = item.file_name.replace("<", "&lt;").replace(">", "&gt;")
+        safe_size = item.size_text.replace("<", "&lt;").replace(">", "&gt;")
+        
+        # ساختار: شماره. اسم فایل (حجم) \n لینک دانلود
+        line = f'<b>{i}. {safe_name}</b> ({safe_size})\n<a href="{item.link}">📥 دانلود فایل</a>'
+        lines.append(line)
+    
+    # جدا کردن هر فایل با دو خط جدید (\n\n) تا فاصله خوبی بینشون بیفته
+    return "\n\n".join(lines)
 
 
 # ----------------------------------------------------------------------------
