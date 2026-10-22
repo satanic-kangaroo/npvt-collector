@@ -435,3 +435,4 @@
 2026-10-22 08:03:28 | found=21 duplicates=7 already_sent=2 batch=10 sent=10 failed=0 discarded=2 pending_retry=0 filtered=0 invalid_channels=6
 2026-10-22 14:11:29 | found=42 duplicates=16 already_sent=0 batch=10 sent=10 failed=0 discarded=16 pending_retry=0 filtered=0 invalid_channels=6
 2026-10-22 18:55:37 | found=36 duplicates=8 already_sent=4 batch=10 sent=10 failed=0 discarded=14 pending_retry=0 filtered=0 invalid_channels=6
+2026-10-22 22:51:26 | found=57 duplicates=34 already_sent=2 batch=10 sent=10 failed=0 discarded=11 pending_retry=0 filtered=0 invalid_channels=6
