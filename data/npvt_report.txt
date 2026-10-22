@@ -433,3 +433,4 @@
 2026-10-21 23:44:03 | found=41 duplicates=22 already_sent=3 batch=10 sent=10 failed=0 discarded=6 pending_retry=0 filtered=0 invalid_channels=6
 2026-10-22 01:57:19 | found=15 duplicates=12 already_sent=1 batch=2 sent=2 failed=0 discarded=0 pending_retry=0 filtered=0 invalid_channels=6
 2026-10-22 08:03:28 | found=21 duplicates=7 already_sent=2 batch=10 sent=10 failed=0 discarded=2 pending_retry=0 filtered=0 invalid_channels=6
+2026-10-22 14:11:29 | found=42 duplicates=16 already_sent=0 batch=10 sent=10 failed=0 discarded=16 pending_retry=0 filtered=0 invalid_channels=6
