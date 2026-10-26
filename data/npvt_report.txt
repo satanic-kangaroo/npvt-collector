@@ -456,3 +456,4 @@
 2026-10-25 21:20:12 | found=31 duplicates=6 already_sent=3 batch=10 sent=10 failed=0 discarded=12 pending_retry=0 filtered=0 invalid_channels=5
 2026-10-25 23:38:15 | found=20 duplicates=9 already_sent=2 batch=9 sent=9 failed=0 discarded=0 pending_retry=0 filtered=0 invalid_channels=5
 2026-10-26 01:49:34 | found=5 duplicates=2 already_sent=2 batch=1 sent=1 failed=0 discarded=0 pending_retry=0 filtered=0 invalid_channels=5
+2026-10-26 07:07:42 | found=29 duplicates=12 already_sent=5 batch=10 sent=10 failed=0 discarded=2 pending_retry=0 filtered=0 invalid_channels=5
