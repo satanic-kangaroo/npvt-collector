@@ -520,3 +520,4 @@
 2026-11-10 13:04:55 | found=27 duplicates=3 already_sent=4 batch=10 sent=10 failed=0 discarded=10 pending_retry=0 filtered=0 invalid_channels=4
 2026-11-10 20:42:08 | found=24 duplicates=3 already_sent=0 batch=10 sent=10 failed=0 discarded=11 pending_retry=0 filtered=0 invalid_channels=4
 2026-11-11 00:59:53 | found=10 duplicates=2 already_sent=0 batch=8 sent=8 failed=0 discarded=0 pending_retry=0 filtered=0 invalid_channels=4
+2026-11-11 08:29:23 | found=17 duplicates=4 already_sent=3 batch=10 sent=10 failed=0 discarded=0 pending_retry=0 filtered=0 invalid_channels=4
