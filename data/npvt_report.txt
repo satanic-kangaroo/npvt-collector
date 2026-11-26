@@ -569,3 +569,4 @@
 2026-11-25 10:35:09 | found=32 duplicates=6 already_sent=3 batch=10 sent=10 failed=0 discarded=13 pending_retry=0 filtered=0 invalid_channels=4
 2026-11-25 20:17:30 | found=47 duplicates=4 already_sent=5 batch=10 sent=10 failed=0 discarded=28 pending_retry=0 filtered=0 invalid_channels=4
 2026-11-26 03:12:35 | found=13 duplicates=1 already_sent=1 batch=10 sent=10 failed=0 discarded=1 pending_retry=0 filtered=0 invalid_channels=4
+2026-11-26 13:15:22 | found=54 duplicates=19 already_sent=4 batch=10 sent=10 failed=0 discarded=21 pending_retry=0 filtered=0 invalid_channels=4
